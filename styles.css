@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+}
+button {
+  background-color: #2e302e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#listaDeTareas {
+  list-style-type: none;
+  padding: 0;
+}
+#listaDeTareas li {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
